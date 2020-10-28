@@ -1,0 +1,244 @@
+<view>
+  <!-- 搜索框开始 -->
+  <view class="search_input">
+    <navigator url="/pages/search/search" open-type="navigate">
+      <text class="iconfont icon-sousuo"></text> 搜索
+    </navigator>
+  </view>
+  <!-- 搜索框结束 -->
+
+  <!-- 轮播图开始 -->
+  <view class="sw-top">
+    <swiper indicator-dots="true" autoplay="true" interval="2000" indicator-color="rgba(0, 0, 0, .1)" indicator-active-color="rgba(0, 0, 0, .6)">
+      <swiper-item>
+        <navigator>
+          <image src="../../images/one.png" class="sw_img"></image>
+          <view class="swiper-text">
+            <text>数据结构</text>
+          </view>
+        </navigator>
+      </swiper-item>
+      <swiper-item>
+        <navigator>
+          <image src="../../images/two.png" class="sw_img"></image>
+          <view class="swiper-text">
+            <text>数据结构</text>
+          </view>
+        </navigator>
+      </swiper-item>
+      <swiper-item>
+        <navigator>
+          <image src="../../images/three.png" class="sw_img"></image>
+          <view class="swiper-text">
+            <text>数据结构</text>
+          </view>
+        </navigator>
+      </swiper-item>
+    </swiper>
+  </view>
+  <!-- 轮播图结束 -->
+
+  <!-- 内容 -->
+  <view class="main">
+    <!-- 常用 -->
+    <view class="common">
+      <view class="common-first-t">常用</view>
+      <view class="common-first-b">
+        <navigator>
+          <image src="../../images/three.png"></image>
+          <text>形势与政策</text>
+        </navigator>
+        <navigator>
+          <image src="../../images/three.png"></image>
+          <text>大学生职业生涯规划</text>
+          <text class="mini">课程</text>
+        </navigator>
+        <navigator>
+          <image src="../../images/three.png"></image>
+          <text>大学生职业生涯规划</text>
+          <text class="mini">课程</text>
+        </navigator>
+        <navigator>
+          <image src="../../images/three.png"></image>
+          <text>大学生职业生涯规划</text>
+          <text class="mini">课程</text>
+        </navigator>
+      </view>
+    </view>
+
+    <!-- 推荐 -->
+    <view class="recommend">
+      <view class="rmd-t">推荐
+        <text class="rmd-t-r">滑动查看更多</text>
+      </view>
+      <scroll-view scroll-x>
+        <view class="rmd-b">
+          <navigator>
+            <image src="../../images/upload/minapper.jpg"></image>
+            <text>专业版</text>
+          </navigator>
+          <navigator>
+            <image src="../../images/upload/minapper-plus.jpg"></image>
+            <text>增强版</text>
+          </navigator>
+          <navigator>
+            <image src="../../images/upload/minapper-bi.png"></image>
+            <text>技术支持</text>
+          </navigator>
+          <navigator>
+            <image src="../../images/upload/live.png"></image>
+            <text>直播</text>
+          </navigator>
+          <navigator>
+            <image src="../../images/upload/minapper-bi.png"></image>
+            <text>小程序</text>
+          </navigator>
+          <navigator>
+            <image src="../../images/upload/miniprogram.png"></image>
+            <text>官网</text>
+          </navigator>
+        </view>
+      </scroll-view>
+    </view>
+
+    <!-- 精选 -->
+    <view class="choiceness">
+      <view class="cho-t">精选</view>
+      <view class="cho-b">
+        <view class="contain">
+          <view class="ctn-l">
+            <text class="ctn-l-t">每个人都要摸索自己的读书方法，从书中去发现自己的长处……</text>
+            <view class="ctn-l-b">
+              <view class="txt">
+                <text class="iconfont icon-shizhong"></text>2019-10-19
+              </view>
+              <view class="txt">
+                <text class="iconfont icon-xiaoxi"></text>18
+              </view>
+              <view class="txt">
+                <text class="iconfont icon-xin"></text>43
+              </view>
+              <view class="txt">
+                <text class="iconfont icon-huaban"></text>4050
+              </view>
+            </view>
+          </view>
+          <view class="ctn-r">
+            <image src="../../images/two.png"></image>
+          </view>
+        </view>
+        <view class="contain">
+          <view class="ctn-l">
+            <text class="ctn-l-t">每个人都要摸索自己的读书方法，从书中去发现自己的长处……</text>
+            <view class="ctn-l-b">
+              <view class="txt">
+                <text class="iconfont icon-shizhong"></text>2019-10-19
+              </view>
+              <view class="txt">
+                <text class="iconfont icon-xiaoxi"></text>18
+              </view>
+              <view class="txt">
+                <text class="iconfont icon-xin"></text>43
+              </view>
+              <view class="txt">
+                <text class="iconfont icon-huaban"></text>4050
+              </view>
+            </view>
+          </view>
+          <view class="ctn-r">
+            <image src="../../images/two.png"></image>
+          </view>
+        </view>
+        <view class="contain">
+          <view class="ctn-l">
+            <text class="ctn-l-t">每个人都要摸索自己的读书方法，从书中去发现自己的长处……</text>
+            <view class="ctn-l-b">
+              <view class="txt">
+                <text class="iconfont icon-shizhong"></text>2019-10-19
+              </view>
+              <view class="txt">
+                <text class="iconfont icon-xiaoxi"></text>18
+              </view>
+              <view class="txt">
+                <text class="iconfont icon-xin"></text>43
+              </view>
+              <view class="txt">
+                <text class="iconfont icon-huaban"></text>4050
+              </view>
+            </view>
+          </view>
+          <view class="ctn-r">
+            <image src="../../images/two.png"></image>
+          </view>
+        </view>
+        <view class="contain">
+          <view class="ctn-l">
+            <text class="ctn-l-t">每个人都要摸索自己的读书方法，从书中去发现自己的长处……</text>
+            <view class="ctn-l-b">
+              <view class="txt">
+                <text class="iconfont icon-shizhong"></text>2019-10-19
+              </view>
+              <view class="txt">
+                <text class="iconfont icon-xiaoxi"></text>18
+              </view>
+              <view class="txt">
+                <text class="iconfont icon-xin"></text>43
+              </view>
+              <view class="txt">
+                <text class="iconfont icon-huaban"></text>4050
+              </view>
+            </view>
+          </view>
+          <view class="ctn-r">
+            <image src="../../images/two.png"></image>
+          </view>
+        </view>
+        <view class="contain">
+          <view class="ctn-l">
+            <text class="ctn-l-t">每个人都要摸索自己的读书方法，从书中去发现自己的长处……</text>
+            <view class="ctn-l-b">
+              <view class="txt">
+                <text class="iconfont icon-shizhong"></text>2019-10-19
+              </view>
+              <view class="txt">
+                <text class="iconfont icon-xiaoxi"></text>18
+              </view>
+              <view class="txt">
+                <text class="iconfont icon-xin"></text>43
+              </view>
+              <view class="txt">
+                <text class="iconfont icon-huaban"></text>4050
+              </view>
+            </view>
+          </view>
+          <view class="ctn-r">
+            <image src="../../images/two.png"></image>
+          </view>
+        </view>
+        <view class="contain">
+          <view class="ctn-l">
+            <text class="ctn-l-t">每个人都要摸索自己的读书方法，从书中去发现自己的长处……</text>
+            <view class="ctn-l-b">
+              <view class="txt">
+                <text class="iconfont icon-shizhong"></text>2019-10-19
+              </view>
+              <view class="txt">
+                <text class="iconfont icon-xiaoxi"></text>18
+              </view>
+              <view class="txt">
+                <text class="iconfont icon-xin"></text>43
+              </view>
+              <view class="txt">
+                <text class="iconfont icon-huaban"></text>4050
+              </view>
+            </view>
+          </view>
+          <view class="ctn-r">
+            <image src="../../images/two.png"></image>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 内容 -->
+</view>

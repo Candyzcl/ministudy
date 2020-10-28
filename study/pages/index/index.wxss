@@ -1,0 +1,190 @@
+/* 搜索框 */
+.search_input {
+  height: 80rpx;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search_input navigator {
+  height: 80rpx;
+  width: 700rpx;
+  margin-top: 4rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: 2rpx solid rgb(90, 166, 236);
+  border-radius: 60rpx;
+  color: #666;
+  font-size: 28rpx;
+}
+
+.icon-sousuo {
+  margin-right: 10rpx;
+}
+
+/* 轮播图 */
+.sw-top swiper {
+  height: 410rpx;
+  margin-top: 20rpx;
+}
+
+.sw-top swiper swiper-item .sw_img {
+  width: 70r0px;
+  height: 300rpx;
+}
+
+.sw-top swiper swiper-item .swiper-text {
+  width: 700rpx;
+  height: 80rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -10rpx;
+  font-size: 30rpx;
+}
+
+.sw-top swiper swiper-item .swiper-text text {
+  margin-left: 50rpx;
+}
+
+/* 内容 */
+.main .common .common-first-t,
+.main .recommend .rmd-t,
+.main .choiceness .cho-t {
+  height: 90rpx;
+  line-height: 70rpx;
+  background: #f5f7f7;
+  font-size: 35rpx;
+  padding: 10rpx;
+  padding-left: 20rpx;
+  color: #333;
+}
+
+.main .recommend .rmd-t,
+.main .choiceness .cho-t {
+    margin-top: 20rpx;
+}
+
+.main .common .common-first-b navigator{
+  display: flex;
+  position: relative;
+  border-bottom: 2rpx solid #eee;
+}
+
+.main .common .common-first-b navigator:last-child {
+  border: 0
+}
+
+.main .common .common-first-b navigator image {
+  width: 120rpx;
+  height: 120rpx;
+  padding: 10rpx;
+}
+
+.main .common .common-first-b navigator text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20rpx
+}
+
+.main .common .common-first-b navigator .mini {
+  position: absolute;
+  top: 50rpx;
+  right: 180rpx;
+  width: 80rpx;
+  height: 30rpx;
+  padding: 4rpx;
+  font-size: 23rpx;
+  color: #ccc;
+  border: 2rpx solid #ccc;
+  border-radius: 40px;
+}
+
+/* 推荐 */
+.main .recommend .rmd-t {
+  margin-top: 20rpx;
+}
+
+.main .recommend .rmd-t .rmd-t-r {
+  float: right;
+  font-size: 26rpx;
+  color: #ccc
+}
+
+.main .recommend .rmd-b {
+  width: 170%;
+  height: 250rpx;
+}
+
+.main .recommend .rmd-b navigator {
+  float: left;
+  margin-left: 40rpx;
+  margin-top: 40rpx;
+}
+
+.main .recommend .rmd-b navigator:first-child {
+  margin-left: 10rpx;
+}
+
+.main .recommend .rmd-b navigator image {
+  display: block;
+  width: 160rpx;
+  height: 160rpx
+}
+
+.main .recommend .rmd-b navigator text {
+  display: flex;
+  justify-content: center;
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 32rpx;
+  color: #4b4b4b
+}
+
+/* 精选 */
+.main .choiceness .contain {
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin-top: 30rpx;
+  border-bottom: 3rpx solid #eee; 
+}
+
+.main .choiceness .contain .ctn-l {
+  margin-left: 20rpx;
+  margin-right: 20rpx; 
+  font-size: 35rpx;
+}
+
+.main .choiceness .contain .ctn-l .ctn-l-b {
+  position: absolute;
+  bottom: 20rpx;
+  left: 20rpx;
+  font-size: 20rpx;
+  color: #4b4b4b;
+}
+
+.main .choiceness .contain .ctn-l .ctn-l-b .txt {
+  display: inline-block;
+  margin-left: 15rpx;
+}
+
+.main .choiceness .contain .ctn-l .ctn-l-b .txt:first-child {
+  margin-left: 0
+}
+
+.main .choiceness .contain .ctn-l .ctn-l-b .txt text {
+  font-size: 27rpx;
+  margin-right: 10rpx
+}
+
+.main .choiceness .contain .ctn-r image{
+  width: 300rpx;
+  height: 200rpx;
+  margin-right: 20rpx
+}

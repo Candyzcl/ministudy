@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/message/message",
+    "pages/readlog/readlog",
+    "pages/topic/topic"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "e+轻学",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#959595",
+    "selectedColor": "#118fff",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tab-home.png",
+        "selectedIconPath": "images/tab-home-on.png"
+      },
+      {
+        "pagePath": "pages/topic/topic",
+        "text": "专题",
+        "iconPath": "images/tab-topic.png",
+        "selectedIconPath": "images/tab-topic-on.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "images/tab-msg.png",
+        "selectedIconPath": "images/tab-msg-on.png"
+      },
+      {
+        "pagePath": "pages/readlog/readlog",
+        "text": "我的",
+        "iconPath": "images/tab-my.png",
+        "selectedIconPath": "images/tab-my-on.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
