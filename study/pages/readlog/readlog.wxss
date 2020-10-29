@@ -1,1 +1,70 @@
-/* pages/readlog/readlog.wxss */
+page {
+  background-color: #edece8;
+}
+.readlog_info_wrap {
+  height: 45vh;
+  overflow: hidden;
+  background: rgb(236, 238, 225);
+  position: relative;
+}
+.readlog_info_wrap .readlog_img_wrap {
+  position: relative;
+}
+.readlog_info_wrap .readlog_img_wrap .readlog_bg {
+  height: 50vh;
+  filter: blur(10rpx);
+}
+.readlog_info_wrap .readlog_img_wrap .readlog_info {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20%;
+  text-align: center;
+}
+.readlog_info_wrap .readlog_img_wrap .readlog_info .readlog_icon {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.readlog_info_wrap .readlog_img_wrap .readlog_info .readlog_name {
+  color: #fff;
+  margin-top: 40rpx;
+}
+.readlog_info_wrap .readlog_btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 40%;
+  padding: 30rpx;
+  border: 1rpx solid #000;
+  border-radius: 10rpx;
+  color: #000;
+  font-size: 38rpx;
+}
+
+.readlog_b_wrap navigator{
+  position: relative;
+  width: 700rpx;
+  height: 100rpx;
+  background: #fff;
+  margin: 30rpx auto;
+  display: flex;
+  align-items: center;
+  border-radius: 20rpx;
+}
+
+.readlog_b_wrap navigator view {
+  margin-left: 30rpx;
+  color: #4b4b4b;
+  font-size: 35rpx;
+}
+
+.readlog_b_wrap navigator view text {
+  margin-left: 10rpx;
+}
+
+.icon-youjiantou {
+  position: absolute;
+  top: 30rpx;
+  right: 20rpx;
+}

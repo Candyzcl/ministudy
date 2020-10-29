@@ -1,1 +1,107 @@
 /* pages/message/message.wxss */
+.weui-search-bar {
+  position: relative;
+  padding: 25rpx 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  box-sizing: border-box;
+  background-color: #EFEFF4;
+  border-top: 1rpx solid #D7D6DC;
+  border-bottom: 1rpx solid #D7D6DC;
+}
+.weui-icon-search {
+  margin-right: 10rpx;
+  font-size: inherit;
+}
+.weui-icon-search_in-box {
+  position: absolute;
+  left: 30rpx;
+  top: 20rpx;
+}
+.weui-search-bar__text {
+  display: inline-block;
+  font-size: 32rpx;
+}
+.weui-search-bar__form {
+  position: relative;
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+          flex: auto;
+  border-radius: 20rpx;
+  background: #FFFFFF;
+  border: 2rpx solid #E6E6EA;
+}
+.weui-search-bar__box {
+  position: relative;
+  padding-left: 60rpx;
+  padding-right: 60rpx;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.weui-search-bar__input {
+  height: 70rpx;
+  line-height: rpx;
+  font-size: 28rpx;
+}
+.weui-search-bar__label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  border-radius: 6rpx;
+  text-align: center;
+  color: #9B9B9B;
+  background: #FFFFFF;
+  line-height: 56rpx;
+}
+.weui-search-bar__cancel-btn {
+  margin-left: 20rpx;
+  line-height: 56rpx;
+  color: #09BB07;
+  white-space: nowrap;
+}
+
+.main .main-first-t {
+  display: block;
+  height: 70rpx;
+  background: #eee;
+  font-size: 27rpx;
+  padding: 20rpx;
+}
+
+.main .main-first-b navigator{
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 150rpx;
+  border: 2rpx solid #E6E6EA;
+
+}
+.main .main-first-b navigator image {
+  width: 100rpx;
+  height: 100rpx;
+  padding: 10rpx;
+  margin-left: 20rpx;
+}
+.main .main-first-b navigator text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20rpx
+}
+.main .main-first-b navigator .mini {
+  position: absolute;
+  top: 60rpx;
+  right: 180rpx;
+  width: 80rpx;
+  height: 40rpx;
+  padding: 4rpx;
+  font-size: 20rpx;
+  color: #ccc;
+  border: 2rpx solid #ccc;
+  border-radius: 80rpx;
+}

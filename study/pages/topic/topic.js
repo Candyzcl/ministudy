@@ -5,6 +5,9 @@ Page({
    * 页面的初始数据
    */
   data: {
+    chinese:"语文",
+    english:"英语",
+    math:"数学",
 
   },
 

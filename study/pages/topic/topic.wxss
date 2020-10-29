@@ -1,1 +1,67 @@
 /* pages/topic/topic.wxss */
+
+.img {
+  margin: 0rpx;
+  width: 300rpx;
+  height: 300rpx;
+  border-radius: 20%;
+}
+
+.nav {
+  padding: 0rpx;
+  margin: 0rpx;
+  display: inline;
+}
+
+.hhh {
+  width: 50rpx;
+  height: 300rpx;
+  margin-left: 40%;
+}
+
+.left1 {
+  margin: 50rpx;
+  width: 400rpx;
+  height: 400rpx;
+  display: flex;
+  top: 10rpx;
+  left: 30rpx;
+}
+
+.left2 {
+  margin: 50rpx;
+  width: 400rpx;
+  height: 400rpx;
+  display: flex;
+}
+
+.left3 {
+  margin: 50rpx;
+  width: 400rpx;
+  height: 400rpx;
+  display: flex;
+}
+
+.right1 {
+  margin: 50rpx;
+  width: 400rpx;
+  height: 400rpx;
+  position: right;
+}
+
+.right2 {
+  margin: 50rpx;
+  width: 400rpx;
+  height: 400rpx;
+}
+
+.right3 {
+  margin: 50rpx;
+  width: 400rpx;
+  height: 400rpx;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}

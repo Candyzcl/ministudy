@@ -1,2 +1,35 @@
-<!--pages/readlog/readlog.wxml-->
-<text>pages/readlog/readlog.wxml</text>
+<view class="readlog_info_wrap">
+  <view wx:if="{{userinfo.avatarUrl}}" class="readlog_img_wrap">
+    <image class="readlog_bg" src="{{userinfo.avatarUrl}}"></image>
+    <view class="readlog_info">
+      <image class="readlog_icon" src="{{userinfo.avatarUrl}}"></image>
+      <view class="readlog_name">{{userinfo.nickName}}</view>
+    </view>
+  </view>
+  <view wx:else class="readlog_btn">
+    <navigator url="/pages/login/login">登录</navigator>
+  </view>
+</view>
+
+  <view class="readlog_b_wrap">
+    <navigator>
+      <view class="iconfont icon-ren"><text>学号与密码</text></view>
+      <view class="iconfont icon-youjiantou"></view>
+    </navigator>
+    <navigator>
+      <view class="iconfont icon-kecheng"><text>课程</text></view>
+      <view class="iconfont icon-youjiantou"></view>
+    </navigator>
+    <navigator>
+      <view class="iconfont icon-hudong"><text>互动</text></view>
+      <view class="iconfont icon-youjiantou"></view>
+    </navigator>
+    <navigator>
+      <view class="iconfont icon-hudongbaiban-icon256"><text>白板</text></view>
+      <view class="iconfont icon-youjiantou"></view>
+    </navigator>
+    <navigator>
+      <view class="iconfont icon-duomeitiicon-"><text>设置</text></view>
+      <view class="iconfont icon-youjiantou"></view>
+    </navigator>
+  </view>
